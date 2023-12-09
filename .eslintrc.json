@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "quotes":["error","single"],
+    "semi":"error",
+    "indent": ["error", "tab"],
+    "object-curly-spacing":["error","always"],
+    "array-bracket-spacing":["error","always"],
+  }
 }
