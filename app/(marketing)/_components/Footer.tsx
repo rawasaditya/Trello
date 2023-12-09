@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "@/components/Logo.tsx";
 import { Button } from "@/components/ui/button";
-import Link from "next/Link";
 const Footer = () => {
   return (
     <div className="fixed bottom-0 w-full h-14 px-4 border-t flex items-center bg-slate-100">

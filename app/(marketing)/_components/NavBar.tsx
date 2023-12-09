@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "@/components/Logo.tsx";
 import { Button } from "@/components/ui/button";
-import Link from "next/Link";
 const NavBar = () => {
   return (
     <div className="fixed top-0 w-full h-14 px-4 border-b shadow-sm bg-white flex items-center">
@@ -9,10 +8,10 @@ const NavBar = () => {
         <Logo />
         <div className="space-x-4 md:block md:w-auto flex items-center justify-between w-full">
           <Button size="sm" variant="outline" asChild>
-            <Link href="/sign-in">Login</Link>
+            <a href="/sign-in">Login</a>
           </Button>
           <Button size="sm" asChild>
-            <Link href="/sign-up">Get Taskify for free</Link>
+            <a href="/sign-up">Get Taskify for free</a>
           </Button>
         </div>
       </div>

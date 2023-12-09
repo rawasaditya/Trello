@@ -1,5 +1,4 @@
 import { Medal } from "lucide-react";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 const MarketingPage = () => {
   return (
@@ -22,7 +21,7 @@ const MarketingPage = () => {
         it all with Taskify
       </div>
       <Button className="mt-6" size="lg">
-        <Link href="/sign-up">Get Started for free</Link>
+        <a href="/sign-up">Get Started for free</a>
       </Button>
     </div>
   );
