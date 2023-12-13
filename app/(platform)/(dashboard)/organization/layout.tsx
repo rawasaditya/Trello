@@ -1,5 +1,5 @@
 import React from "react";
-import OrgControls from "./[organization]/_components/org-control";
+import SideBar from "../_components/SideBar";
 const OrganizationLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main
@@ -10,8 +10,9 @@ const OrganizationLayout = ({ children }: { children: React.ReactNode }) => {
       "
     >
       <div className="flex gap-x-7">
-        <div className="w-64 shrink-0 hidden md:block">{/* Sidebar */}</div>
-        <OrgControls />
+        <div className="w-64 shrink-0 hidden md:block">
+          <SideBar />
+        </div>
         {children}
       </div>
     </main>
